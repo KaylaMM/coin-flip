@@ -1,0 +1,24 @@
+.Coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+img {
+  width: 200px;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: 10px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
